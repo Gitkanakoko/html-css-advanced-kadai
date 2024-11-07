@@ -1,5 +1,6 @@
+
 body {
-  margin: 0 auto 0 auto;
+  margin: 0 auto;
 }
 
 /* ヘッダー */
@@ -53,9 +54,15 @@ h1 {
   display: none;
 }
 
+/* 課題13のJavascriptのハンバーガーメニューの
+おかしいところをなおしたかった→Javascriptのonclickが優先され治らない 
 
+@media screen and (min-width: 768px) {
 
-
+  #nav-sp {
+    display: none;
+  }
+}*/
 
 /* ==================
 スマートフォン用のスタイル 
@@ -86,8 +93,6 @@ h1 {
     float: right;
     padding: 0;
     border: none;
-    float: right;
-    padding: 0;
   }
 
   #nav-sp {
